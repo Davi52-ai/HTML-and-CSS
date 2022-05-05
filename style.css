@@ -1,14 +1,25 @@
-h1, h2, h3, h4, p, li {
-  font-family: sans-serif;
-  color: #444;
+* {
+  /* border-top: 10px solid #1098ad; */
 }
+
+body {
+  color: #444;
+  font-family: sans-serif;
+
+  border-top: 10px solid #1098ad;
+}
+
+/* h1, h2, h3, h4, p, li {
+   font-family: sans-serif; 
+   color: #444; 
+} */
 
 h1, h2, h3 {
   color: #1098ad;
 }
 
 h1 {
-  fonte-size: 26px;
+  font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
 }
@@ -112,7 +123,10 @@ a:visited {
   /* color: #777; */
   color: #1098ad;
 }
-
+h1, h2, h3, h4, p, li {
+  font-family: sans-serif; 
+  color: #444; 
+}
 a:hover {
   color: orangered;
   font-weight: bold;
@@ -145,3 +159,12 @@ a {
 footer p {
   color: green !important;
 } */
+
+/* nav a:link,
+nav p {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+}
