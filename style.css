@@ -53,7 +53,7 @@ p {
 
 ul, ol {
   margin-left: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
 }
 
 li{
@@ -102,6 +102,7 @@ li:last-child {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 .posto-header {
@@ -115,6 +116,7 @@ aside {
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
+  width: 500px;
 }
 
 body {
@@ -170,6 +172,11 @@ a {
   color: red;
 }
 /* LVHA */
+
+.post-img {
+  width: 100%;
+  heigth: auto;
+}
 
 /* Resolving conflicts */
 /* #copyright {
