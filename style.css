@@ -198,7 +198,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
 }
 
@@ -234,6 +234,7 @@ h2 {
 
 h2::before {
   content: "TOP";
+
   background-color: #ffe70e;
   color: #444;
   font-size: 16px;
@@ -268,7 +269,7 @@ nav p {
 } */
 
 /* FLOATS */
-.author-img {
+/* .author-img { 
 float: left;
 margin-bottom: 20px;
 }
@@ -299,17 +300,24 @@ nav {
 
 article{
   /* background-color: green;*/
-  width: 825px; 
+  /* width: 825px; 
   float: left;
 }
 
 aside{
   /* background-color: red; */
-  width: 300px;
+  /*width: 300px;
   float: right;
 }
 
 footer{
   /* background-color: yellow; */
-  clear: both;
+  /*clear: both;
+}  */
+
+/* FLEXBOX */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
